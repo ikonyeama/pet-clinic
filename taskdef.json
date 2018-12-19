@@ -1,18 +1,36 @@
 {
-    "family": "hello-world",
+    "family": "Petclinic",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
-            "cpu": 10,
-            "memory": 256,
+            "name": "PetsContainer",
+            "cpu": 20,
+            "memory": 512,
             "essential": true,
             "portMappings": [
                 {
                     "containerPort": 80,
                     "hostPort": 80
                 }
-            ]
+            ],
+            "environment": [
+                    {
+                        "name": "SPRING_PROFILES_ACTIVE",
+                        "value": "mysql"
+                    },
+                    {
+                        "name": "SPRING_DATASOURCE_URL",
+                        "value": "dns_name"
+                    },
+                    {
+                        "name" "SPRING_DATASOURCE_USERNAME",
+                        "value": "root"
+                    },
+                    {
+                        "name": "SPRING_DATASOURCE_PASSWORD",
+                        "value": "root2481"
+                    }
+                ],
         }
     ]
 }
