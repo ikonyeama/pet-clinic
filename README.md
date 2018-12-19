@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 hello-world
 ===========
 
@@ -22,3 +23,6 @@ Build and run using Docker Compose:
 	$ docker-cloud stack up
 
 Hello world!
+=======
+# pet-clinic
+>>>>>>> eba3d715dcd398e007a28f97ea1ecb3e38fe827f
