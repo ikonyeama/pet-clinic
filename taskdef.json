@@ -4,7 +4,7 @@
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
             "name": "PetsContainer",
-            "cpu": 20,
+            "cpu": 500,
             "memory": 512,
             "essential": true,
             "portMappings": [
@@ -20,7 +20,7 @@
                     },
                     {
                         "name": "SPRING_DATASOURCE_URL",
-                        "value": "dns_name"
+                        "value": "pp21fz2b5qapk0.c5h9zlwvp6fd.eu-west-1.rds.amazonaws.com"
                     },
                     {
                         "name" "SPRING_DATASOURCE_USERNAME",
@@ -31,6 +31,17 @@
                         "value": "root2481"
                     }
                 ],
+            'dockerLabels': {
+                'string': 'string'
+            },
+            'logConfiguration': {
+                'logDriver': 'awslogs',
+                'options': {
+                    'awslogs-group': "ECSLogGroup-" + project_name,
+                    'awslogs-region': REGION,
+                    'awslogs-stream-prefix': project_name
+                    }
+                }				
         }
     ]
 }
