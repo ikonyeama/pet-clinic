@@ -20,15 +20,15 @@
                         "value": "mysql"
                     }
                     {
-                        "name": "MY_SQL_DB",
+                        "name": "DATABASE_URL",
                         "value": "pp21fz2b5qapk0.c5h9zlwvp6fd.eu-west-1.rds.amazonaws.com"
                     },
                     {
-                        "name": "MY_SQL_USERNAME",
+                        "name": "DATABASE_USERNAME",
                         "value": "root"
                     },
                     {
-                        "name": "MY_SQL_PASSWORD",
+                        "name": "DATABASE_PASSWORD",
                         "value": "root2481"
                     }
                 ],
