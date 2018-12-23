@@ -15,19 +15,15 @@
             ],
             "environment": [
                     {
-                        "name": "SPRING_PROFILES_ACTIVE",
-                        "value": "mysql"
-                    },
-                    {
-                        "name": "SPRING_DATASOURCE_URL",
+                        "name": "DB_URL",
                         "value": "pp21fz2b5qapk0.c5h9zlwvp6fd.eu-west-1.rds.amazonaws.com"
                     },
                     {
-                        "name" "SPRING_DATASOURCE_USERNAME",
+                        "name" "DB_USERNAME",
                         "value": "root"
                     },
                     {
-                        "name": "SPRING_DATASOURCE_PASSWORD",
+                        "name": "DB_PASSWORD",
                         "value": "root2481"
                     }
                 ],
