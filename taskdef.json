@@ -13,12 +13,6 @@
                     "hostPort": 80
                 }
             ],
-            "environment": [
-                    {
-                        "name": "MYSQL_ROOT_PASSWORD",
-                        "value": "root2481"
-                    }
-                ],
             'dockerLabels': {
                 'string': 'string'
             },
