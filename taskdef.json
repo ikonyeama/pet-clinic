@@ -14,19 +14,6 @@
                 }
             ],
             "environment": [
-
-                    {
-                        "name": "MYSQL_DATABASE"
-                        "value": "mysql"
-                    }
-                    {
-                        "name": "MYSQL_ROOT_URL",
-                        "value": "pp21fz2b5qapk0.c5h9zlwvp6fd.eu-west-1.rds.amazonaws.com"
-                    },
-                    {
-                        "name": "MYSQL_ROOT_USERNAME",
-                        "value": "root"
-                    },
                     {
                         "name": "MYSQL_ROOT_PASSWORD",
                         "value": "root2481"
