@@ -13,15 +13,15 @@
                     "hostPort": 80
                 }
             ],
-            'dockerLabels': {
-                'string': 'string'
+            "dockerLabels": {
+                "string": "string"
             },
-            'logConfiguration': {
-                'logDriver': 'awslogs',
-                'options': {
-                    'awslogs-group': "ECSLogGroup-" + project_name,
-                    'awslogs-region': REGION,
-                    'awslogs-stream-prefix': project_name
+            "logConfiguration": {
+                "logDriver": '"wslogs",
+                "options": {
+                    "awslogs-group": "ECSLogGroup-" + project_name,
+                    "awslogs-region": REGION,
+                    "awslogs-stream-prefix": project_name
                     }
                 }				
         }
